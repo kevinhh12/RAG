@@ -1,0 +1,101 @@
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.production
+*.pem
+
+# ===========================
+# Python / FastAPI (Backend)
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================
+# ChromaDB (Vector Database)
+# ===========================
+chroma_db/
+chroma/
+*.chroma
+vector_store/
+
+# ===========================
+# Uploaded Documents
+# ===========================
+uploads/
+documents/
+*.pdf
+*.txt
+!README.txt
+
+# ===========================
+# Node / React (Frontend)
+# ===========================
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===========================
+# IDE & Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Misc
+# ===========================
+*.log
+logs/
+temp/
+tmp/
